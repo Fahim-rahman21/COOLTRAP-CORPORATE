@@ -1,0 +1,103 @@
+  font-family: 'Arvo', serif;\
+  font-family: 'Roboto', sans-serif;
+  .display-factory-section{
+    padding-top: 80px;
+}
+.container_2{
+    width: 95%;
+    margin: 0 auto;
+}
+.main{
+    padding: 50px;
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+}
+.banner_2{ 
+    padding: 0 50px;
+    display: flex;
+    padding-top: 50px;
+}
+.banner_2 p{
+    margin: 0px 50px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    /* font-weight: 100; */
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    margin-left: -70px;
+    /* display: block; */
+
+}
+.imges{
+    margin-right: -148px;
+    /* padding-left: -20px; */
+    
+}
+.imges img{
+    width: 900px;
+    height: 450px;
+    object-fit: cover;
+    /* text-align: end; */
+
+
+<form>      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT"/>
+</form>
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
